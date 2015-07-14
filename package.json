@@ -1,0 +1,28 @@
+{
+  "name": "emitter-trace",
+  "version": "1.0.0",
+  "description": "log all events from this emitter and emitters it emits",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape ./test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/soldair/node-emitter-trace.git"
+  },
+  "keywords": [
+    "emitter",
+    "log",
+    "debug",
+    "server"
+  ],
+  "author": "Ryan Day <soldair@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soldair/node-emitter-trace/issues"
+  },
+  "homepage": "https://github.com/soldair/node-emitter-trace#readme",
+  "dependencies": {
+    "tape": "^4.0.0"
+  }
+}
