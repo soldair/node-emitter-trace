@@ -8,7 +8,7 @@ var et = require('emitter-trace')
 
 var server = require('http').createServer(function(req,res){
   res.end('hi')
-})
+}).listen(8080)
 
 et(server,'server')
 ```
